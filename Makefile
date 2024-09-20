@@ -151,6 +151,7 @@ UPROGS=\
 	$U/_zombie\
 	$U/_helloworld\
 	$U/_copy\
+	$U/_open\
 
 
 ifeq ($(LAB),syscall)

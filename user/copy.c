@@ -22,9 +22,16 @@ main()
 
     if(n <= 0)
     {
+      printf("copy: read error\n");
       break;
     }
-    write(1, buf, n);
+    // write(1, buf, n);
+    if (write(1, buf, n))
+    {
+      printf("copy: write error\n");
+      break;
+    }
+    
   }
 
   exit(0);
