@@ -159,6 +159,7 @@ UPROGS=\
 	$U/_pipe1\
 	$U/_pipe2\
 	$U/_list\
+	$U/_sleep\
 
 
 ifeq ($(LAB),syscall)
