@@ -152,6 +152,13 @@ UPROGS=\
 	$U/_helloworld\
 	$U/_copy\
 	$U/_open\
+	$U/_fork\
+	$U/_exec\
+	$U/_forkexec\
+	$U/_redirect\
+	$U/_pipe1\
+	$U/_pipe2\
+	$U/_list\
 
 
 ifeq ($(LAB),syscall)
