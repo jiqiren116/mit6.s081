@@ -161,6 +161,7 @@ UPROGS=\
 	$U/_list\
 	$U/_sleep\
 	$U/_pingpong\
+	$U/_pipe_learn\
 
 
 ifeq ($(LAB),syscall)
