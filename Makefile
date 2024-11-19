@@ -162,6 +162,7 @@ UPROGS=\
 	$U/_sleep\
 	$U/_pingpong\
 	$U/_pipe_learn\
+	$U/_primes\
 
 
 ifeq ($(LAB),syscall)
